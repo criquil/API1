@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = 3000;
 
-//connect mongodb
+//connect mongodb as
 mongoose.connect('mongodb://localhost:27017/mydatabase', { useNewUrlParser: true, useUnifiedTopology: true});
 const db = mongoose.connection();
 
